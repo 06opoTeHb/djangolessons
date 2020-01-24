@@ -16,3 +16,5 @@ pip install pillow
 python - m pip install pillow
 
 python manage.py makemigrations
+
+python manage.py migrate
