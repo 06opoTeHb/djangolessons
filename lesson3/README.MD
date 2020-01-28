@@ -11,9 +11,11 @@ python manage.py runserver
 Добавить в admin.py в папке osint
 
 from .models import Category
+
 admin.site.register(Category)
 
 from .models import Osintservices
+
 admin.site.register(Osintservices)
 
 Поменять язык в settings.py на 'ru'
