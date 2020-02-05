@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<title>{% block title %}{% endblock %}</title>
+<link href="{% static "osint/main.css" %}" rel="stylesheet">
+</head>
+<body>
+<div id="sidebar">
+<h2>Меню</h2>
+{% block menu %}{% endblock %}
+</div>
+<div id="content">
+{% block content %}{% endblock %}
+</div>
+</body>
+</html>
